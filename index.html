@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <title>Portfolio</title>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?
+        family=EB+Garamond:wght@500;600;700;800&family=Poppins:
+        ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;
+        0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900
+        &display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/9e12a9da2b.js" crossorigin="anonymous"></script>   
+        
+    </head>
+
+    <body>        
+<!-- ------------------------------------Dark/Light Header---------------------------------------- -->
+
+        <header>
+
+            <div class="switch">
+
+                <div class="flicker"> </div>
+                <div class="moon"> </div>
+
+            </div>
+
+        </header>
+
+<!-- ------------------------------------Navigation Bar---------------------------------------- -->
+
+        <nav>
+
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <div class="logo">
+                <a href="#">KHUSH.</a>
+            </div>
+
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+
+<!-- ------------------------------------Home Page---------------------------------------- -->
+
+<section id="home">
+
+        <div class="container">
+            <div class="main-box">
+                <p id="main"> <u> Software Engineering Student </u> </p>
+                <h1> Hi, I'm 
+                    <span>
+                    Khushveen
+                </span>
+                    <br>
+                    Kaur Umra.
+                </h1>
+                <p id="main"> Welcome to my corner of the internet.
+                    <br>
+                    <br>
+                   <span>
+                    I am glad you're here!
+                   </span> 
+                </p>
+            </div>
+
+            <div class="main-img">
+                    <img class="avatar" src="images/round-avatar.png" alt="Khush's Avatar">
+            </div>
+
+        </div>
+
+</section>
+
+<!-- ------------------------------------About Page---------------------------------------- -->
+
+<section id="about">
+
+        <div class="container">
+
+            <div class="about-col1">
+                <img class="picture" src="images/my_picture.jpg" alt="My Picture">
+            </div>
+
+            <div class="about-col2">
+                <h2 class="sub-title">About Me</h2>
+                <br>
+            <p id="one">
+                I am currently a student at Iowa State University, 
+                majoring in Software Engineering, and I will be 
+                graduating in August 2023. I am dedicated to the quest
+                of developing elegant solutions that leverage on best
+                practise technologies to deliver over the top user experience.</p>
+
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+
+        <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li>
+                                        <span>UI/UX</span>
+                                            <br>
+                                        Designing Web/App Interfaces (HTML / JSX / CSS / Android Studio)
+                                    </li> 
+                                    <li>
+                                        <span>Programming Languages</span>
+                                            <br>
+                                            C/C++, SQL, Java (Basic), Linux / UNIX
+                                    </li>
+                                    <li>
+                                        <span>IDE's & Version Control</span>
+                                            <br>
+                                            MATLAB, Eclipse, Visual Studio, Git, Github, Tina-TI
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li>
+                                        <span> May 2021 - Present </span>
+                                            <br>
+                                            <b> Student Assistant </b> (International Students and Scholars Office, ISU) <br>
+                                    </li>
+                                    <li>
+                                        <span> May 2022 - August 2022 </span>
+                                            <br>
+                                            <b> Firmware Engineer Intern </b> (Schneider Electric) <br>
+                                    </li>
+                                    <li>
+                                        <span> October 2021 - January 2022 </span>
+                                            <br>
+                                            <b> Student Coordinator </b> (Engineering Career Services, ISU) <br>
+                                    </li>
+                                    <li>
+                                        <span> August 2020 - May 2021 </span>
+                                            <br>
+                                            <b> Dining Service Assistant </b> (ISU Dining) <br>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li>
+                                        <span>Iowa State University (August 2019 - August 2023) </span>
+                                            <br>
+                                            Bachelor of Science: Software Engineering <br>
+                                    </li>
+                                    <li>
+                                        <span> Relevant Coursework</span>
+                                            <br>
+                                            - Introduction to Software Testing <br>
+                                           - Software Development Practices <br>
+                                          - Theoretical Foundation of Computer Engineering <br>
+                                           - Software Project Management <br>
+                                           - Senior Design Project I & II <br>
+                                           - Construction of Software User Interfaces <br>
+
+                                    </li>
+                                </ul>
+                            </div>
+            </div>
+        </div>
+     
+    </section>
+
+<!-- ------------------------------------Portfolio Page---------------------------------------- -->
+
+<section id="portfolio">
+
+    <div class="container-third">
+        <h1 class="sub-title3">My Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/project_1.png">
+                <div class="layer">
+                    <h3>CyLearn - LMS</h3>
+                    <p>This is a learning management system that allows students and teachers to
+                        have a single platform to share ideas and be able to manage all the tasks
+                        required in a school setting.
+                    </p>
+                        <a href="https://github.com/khushiumra/CyLearn-ComS309">
+                            <i class="fa-brands fa-square-github"></i>
+                            View Code
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=_w0lhOk39fM">
+                            <i class="fa-solid fa-link"></i>
+                            Demo Link
+                        </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project_2.png">
+                <div class="layer">
+                    <h3>Community Services</h3>
+                    <p>This is UI Web application to assist internal employees,
+                        volunteers, and cutomers in better understanding and managing its activities and events.
+                    </p>
+                    <a href="https://www.figma.com/file/Zqpe7ApIzQzqF1hi2MUw0C/Prototype?node-id=0%3A1&t=JA3ivfQKjjf2QzV4-0">
+                        <i class="fa-brands fa-figma"></i>
+                        Prototype
+                    </a>
+                    <a href="https://drive.google.com/file/d/1AxpYsCiX2Fjt1FSu1EFjwxYB4pHaP1BU/view?usp=sharing">
+                        <i class="fa-solid fa-link"></i>
+                        Demo Link
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project_3.png">
+                <div class="layer">
+                    <h3>My Portfolio Website</h3>
+                    <p>This is my wesbite portfolio that showcases my skills, work experience,
+                        and projects that I have worked on during my degree.
+                    </p>
+                    <a href="#">
+                        <i class="fa-brands fa-square-github"></i>
+                        View Code
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-link"></i>
+                        Demo Link
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ------------------------------------Contact Page---------------------------------------- -->
+
+<section id="contact">
+
+        <div class="container">
+
+            <div class="contact-left">
+                <h2 class="sub-title2">Contact Me</h2>
+                <p id="two"> <i class="fa-solid fa-envelope"></i>kumra@iastate.edu</p>
+                <div class="social-icons">
+                    <a href=" https://github.com/khushiumra" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github"> </i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/khushveenumra20/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+                <a href="https://drive.google.com/file/d/1xBZsfvI22FwAdFXUg3JJ7uxYbDds6KO0/view?usp=sharing" 
+                class="resume_button" target="_blank" rel="noopener noreferrer">
+                My Resume
+            </a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="submit_button">Submit</button>
+                </form>
+
+                <span id="msg"></span>
+
+            </div>
+
+        </div>  
+
+</section>
+
+<!-- ------------------------------------Copyright---------------------------------------- -->
+
+<div class="copyright">
+    <p> Copyright 
+        <i class="fa-solid fa-copyright"> </i> 
+        2023 - Khushveen Kaur Umra
+    </p>
+</div> 
+
+        <script src="script.js"></script>
+    </body>
+</html>
